@@ -1,0 +1,55 @@
+<app-slide-container>
+  <app-slide color='whitesmoke' >
+     <!-- GOOD EXAMPLE -->
+     <app-slide color='purple'></app-slide>
+     <app-slide color='purple'>
+      <app-circle   label="HTML4" background="coral" animation="fadeInLeft" color="white" [unit]="15"[delay]="0" [font]="2">
+      </app-circle>
+     </app-slide>
+     <app-slide color='purple'></app-slide>
+ 
+     <app-slide color='purple'>
+      <div class="circle-container-y">
+
+          <app-circle  label="div" background="coral" animation="fadeInRight" color="cyan" [unit]="10"[delay]="1" [font]="1.5">
+          </app-circle>
+
+      </div>
+    </app-slide>
+    <app-slide color='purple'></app-slide>
+    <app-slide color='purple'></app-slide>
+  </app-slide>
+  <app-slide-container [vertical]="true">
+    <app-slide color='coral'></app-slide>
+    <app-slide color='coral'>
+      <app-circle   label="HTML5" background="purple" animation="fadeInLeft" color="white" [unit]="15"[delay]="0" [font]="2">
+      </app-circle>
+    </app-slide>
+    <app-slide color='coral'></app-slide>
+  <app-slide color='coral'>
+    <div class="circle-container-x">
+        <app-circle  label="<title>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+        <app-circle  label="<h1-h6>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+        <app-circle  label="<image alt=''>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+        <app-circle  label="<article>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+    </div>
+  </app-slide>
+  <app-slide color='coral'>
+    <div class="circle-container-x">
+        <app-circle  label="<nav>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+        <app-circle  label="<main>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+        <app-circle  label="<footer>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+        <app-circle  label="<header>" background="purple" animation="fadeInRight" color="white" [unit]="10"[delay]="1" [font]="1.5">
+        </app-circle>
+    </div>
+      </app-slide>
+      <app-slide color='coral'></app-slide>
+    </app-slide-container>
+</app-slide-container>

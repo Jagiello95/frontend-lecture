@@ -1,0 +1,27 @@
+<app-slide-container [vertical]="true">
+  <app-slide color='#fefad4'>
+    <div class="circle-container-x">
+      <app-circle label="Array" background="#765d69" animation="slideInRight" color="#fefad4" [unit]="10"[delay]="0" (click)="testArrayMethods()"></app-circle>
+     
+    </div>
+  </app-slide>
+  <app-slide color='#fcd06a'>
+    <div class="circle-container-x">
+      <app-circle label="Object" background="#f1828d" animation="slideInLeft" color="#fcd06a" [unit]="10"[delay]="0" (click)="testObjectMethods()"></app-circle>
+     
+    </div>
+  </app-slide>
+  <app-slide color='#f1828d'>
+    <div class="circle-container-x">
+      <app-circle label="Map" background="#fefad4" animation="slideInRight" color="#f1828d" [unit]="10"[delay]="0" (click)="testMapMethods()"></app-circle>
+     
+    </div>
+  </app-slide>
+  <app-slide color='#765d69'>
+    <div class="circle-container-x">
+      <app-circle label="Set" background="#fcd06a" animation="slideInLeft" color="#765d69" [unit]="10"[delay]="0" (click)="testSetMethods()"></app-circle>
+     
+    </div>
+  </app-slide>
+ 
+</app-slide-container>

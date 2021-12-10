@@ -1,0 +1,5 @@
+<div class="indicator-container">
+  <a class="indicator" *ngFor="let route of routes, let i = index" [routerLink]="route" routerLinkActive="active" (click)="onClick(i)">
+
+  </a>
+</div>

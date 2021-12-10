@@ -1,0 +1,7 @@
+<div class="circle">
+  <span *ngIf="icon">
+    <i [class]="'pi pi-' + icon"></i>
+  </span>
+  <span *ngIf="label">{{label}}</span>
+  <ng-content></ng-content>
+</div>

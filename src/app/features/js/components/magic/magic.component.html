@@ -1,0 +1,16 @@
+<app-slide-container [vertical]="true">
+  <app-slide color='#f3f6e4'>
+    <div class="circle-container-x">
+      <app-circle label="Magic string" (onClick)="selectRoomNames()" background="#90eb8a" animation="lightSpeedInRight" color="white" [unit]="14"[delay]="1"></app-circle>
+
+    </div>
+  </app-slide>
+  <app-slide color='#90eb8a'>
+    
+    <div class="circle-container-x">
+      <app-circle label="Magic number" (onClick)="selectRoomNumbers()" background="#f3f6e4" animation="lightSpeedInLeft" color="white" [unit]="14"[delay]="1" color="#90eb8a"></app-circle>
+           
+    </div>
+  </app-slide>
+
+</app-slide-container>

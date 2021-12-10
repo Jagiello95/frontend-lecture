@@ -1,0 +1,24 @@
+<section>
+
+<div class="title">
+  <app-circle 
+  style="opacity:0.3"
+  background="black"
+  color="white"
+  [unit]="4"
+  [font]="2"
+  (click)="redirectHome()">
+  <app-circle 
+  background="black"
+  color="cyan"
+  [unit]="3"
+  [font]="2">
+  <i class="pi pi-bars"></i>
+  </app-circle>
+</app-circle>
+</div>
+
+<div class="main"  >
+  <router-outlet ></router-outlet>
+</div>
+</section>

@@ -1,0 +1,30 @@
+<app-slide-container>
+  <app-slide color='seashell' style="flex:1">
+    <div class="circle-container-y">
+      <app-circle  background="coral" animation="flipInX"  color="seashell" [unit]="30"[delay]="0" [font]="3">
+        <img class="me" src="assets/intro/me.png"/>
+      </app-circle>
+      <app-circle  label="Andrzej Jagiełło" background="coral" animation="flipInX"  color="seashell" [unit]="20"[delay]="0" [font]="2">
+      </app-circle>
+    </div>
+  </app-slide>
+  <app-slide color='coral' >
+    <div class="circle-container-y">
+      <app-circle background="seashell" class="main-circle" animation="flipInX"  color="midnightblue" [unit]="15"[delay]="0" [font]="1">
+      <app-circle background="lightskyblue" animation="flipInX"  color="midnightblue" [unit]="12"[delay]="0" [font]="1">
+        <img class="logo" src="https://www.lsisoftware.pl/wp-content/uploads/2020/01/LSI_Software_blue_500px.png"/>
+      </app-circle>
+    </app-circle>
+    <app-circle background="seashell" class="main-circle" animation="flipInX"  color="midnightblue" [unit]="15"[delay]="0" [font]="1">
+      <app-circle background="#ed6a5a" animation="flipInX"  color="midnightblue" [unit]="12"[delay]="1" [font]="1">
+        <img class="logo" src="https://boringowl.io/wp-content/uploads/2020/11/Angular-framework-js-300x300.png"/>
+      </app-circle>
+      </app-circle>
+      <app-circle background="seashell" class="main-circle" animation="flipInX"  color="midnightblue" [unit]="15"[delay]="0" [font]="1">
+      <app-circle background="#5ca4a9" animation="flipInX"  color="midnightblue" [unit]="12"[delay]="2" [font]="1">
+        <img class="logo" src="https://www.obg.eu.com/img/technologies/react.png"/>
+      </app-circle>
+    </app-circle>
+    </div>
+  </app-slide>
+</app-slide-container>

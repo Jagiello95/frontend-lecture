@@ -1,0 +1,20 @@
+<app-slide-container [vertical]="true">
+  <app-slide color="seashell">
+    <div class="circle-container-x">
+      <app-circle label="Dobre praktyki w programowaniu aplikacji frontendowych" background="coral"  color="seashell" [unit]="24"[delay]="0" [font]="2.2"></app-circle>
+     
+    </div>
+  </app-slide>
+  <app-slide color="coral">
+    <div class="circle-container-x">
+      <app-circle (click)="redirect(0)" label="Intro" background="seashell"  class="animate__infinite animate__bounce animate__slower" color="coral" [unit]="12"[delay]="0" [font]="1.5"></app-circle>
+      <app-circle (click)="redirect(1)" label="Architecture" background="seashell" class="animate__infinite animate__bounce animate__slower"  color="coral" [unit]="12"[delay]="1" [font]="1.5"></app-circle>
+      <app-circle (click)="redirect(2)" label="HTML" background="seashell" class="animate__infinite animate__bounce animate__slower"  color="coral" [unit]="12"[delay]="2" [font]="1.5"></app-circle>
+      <app-circle (click)="redirect(3)" label="CSS" background="seashell" class="animate__infinite animate__bounce animate__slower"  color="coral" [unit]="12"[delay]="3" [font]="1.5"></app-circle>
+      <app-circle (click)="redirect(4)" label="JS" background="seashell" class="animate__infinite animate__bounce animate__slower"  color="coral" [unit]="12"[delay]="4" [font]="1.5"></app-circle>
+      <app-circle (click)="redirect(5)" label=":(" background="seashell" class="animate__infinite animate__bounce animate__slower"  color="coral" [unit]="12"[delay]="5" [font]="1.5"></app-circle>
+      <app-circle (click)="redirect(6)" label="??" background="seashell" class="animate__infinite animate__bounce animate__slower"  color="coral" [unit]="12"[delay]="5" [font]="1.5"></app-circle>
+
+    </div>
+  </app-slide>
+</app-slide-container>

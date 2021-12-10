@@ -1,0 +1,61 @@
+<app-slide-container>
+
+  <!-- GOOD EXAMPLE -->
+      <app-slide color='whitesmoke'>
+      <div class="circle-container-y">
+        <app-circle   background="#6cdf84" animation="fadeInBottomLeft" color="white" [unit]="10"[delay]="0" [font]="1">
+          <i class="pi pi-check main-icon"></i>
+        </app-circle>
+          <app-circle  background="deepskyblue" icon="user" animation="fadeInBottomLeft" color="cyan" [unit]="6"[delay]="1" [font]="1">
+          </app-circle>
+          <app-circle  background="lightgreen" icon="check" animation="fadeInBottomLeft" color="green" [unit]="6"[delay]="1" [font]="1">
+          </app-circle>
+          <app-circle  background="indianred" icon="times" animation="fadeInBottomLeft" color="pink" [unit]="6"[delay]="1" [font]="1">
+          </app-circle>
+          <app-circle  background="gold" icon="sun" animation="fadeInBottomLeft" color="goldenrod" [unit]="6"[delay]="1" [font]="1">
+          </app-circle>
+          <app-circle  background="purple" icon="moon" animation="fadeInBottomLeft" color="whitesmoke" [unit]="6"[delay]="1" [font]="1">
+          </app-circle>
+          <app-circle  background="plum" icon="book" animation="fadeInBottomLeft" color="aliceblue" [unit]="6"[delay]="1" [font]="1">
+          </app-circle>
+      </div>
+    </app-slide>
+
+
+
+  <!-- Bad EXAMPLE -->
+  <app-slide color='lightgray'>
+    <div class="circle-container-y">
+      <app-circle  background="indianred" animation="fadeInBottomRight" color="whitesmoke" [unit]="10"[delay]="0" [font]="1">
+        <i class="pi pi-times main-icon"></i>
+      </app-circle>
+
+
+      <div class="user-circle circle  animate__fadeInBottomRight animate__animated">
+        <i class="pi pi-user"></i>
+      </div>
+
+      <div class="check-circle circle  animate__fadeInBottomRight animate__animated">
+        <i class="pi pi-check"></i>
+      </div>
+
+      <div class="times-circle circle  animate__fadeInBottomRight animate__animated">
+        <i class="pi pi-times"></i>
+      </div>
+    
+      <div class="sun-circle circle  animate__fadeInBottomRight animate__animated">
+        <i class="pi pi-sun"></i>
+      </div>
+
+      <div class="moon-circle circle  animate__fadeInBottomRight animate__animated">
+        <i class="pi pi-moon"></i>
+      </div>
+
+      <div class="book-circle circle  animate__fadeInBottomRight animate__animated">
+        <i class="pi pi-book"></i>
+      </div>
+
+    </div>
+  </app-slide>
+</app-slide-container>
+

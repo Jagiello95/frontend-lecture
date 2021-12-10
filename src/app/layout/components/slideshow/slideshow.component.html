@@ -1,0 +1,7 @@
+<app-indicator [routes]="routes" (routeChanged)="onRouteChange($event)" [currentIndex]="currentRoute"></app-indicator>
+<div class="slideshow" [@slideInOutAnimation]="prepareRoute(outlet)">
+  <div class="arrow" (click)="prev()"><i class=" pi pi-chevron-left"></i></div>
+<div class="arrow" (click)="next()"><i class=" pi pi-chevron-right"></i></div>
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
+

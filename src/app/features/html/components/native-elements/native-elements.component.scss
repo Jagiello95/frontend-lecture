@@ -1,0 +1,22 @@
+.header {
+  font-size: 1.5rem;
+  letter-spacing:1px;
+  margin-bottom:4rem;
+}
+
+.native-element-chips {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  width:80%;
+  .native-element-chips-column {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+
+    app-chip {
+      margin-bottom:1rem;
+    }
+  }
+}

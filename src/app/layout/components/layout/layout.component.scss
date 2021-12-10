@@ -1,0 +1,42 @@
+:host {
+  display:block;
+  background-color: #1f2d40;
+  width:100%;
+  min-height:100vh;
+  height:auto;
+}
+
+.title {
+  position:fixed;
+  display:flex;
+  align-items:center;
+  z-index:10;
+  right:1rem;
+  padding-left:3rem;
+  top:1rem;
+  width:100%;
+
+
+
+  span {
+    font-size:1.5rem;
+    font-weight:bolder;
+  }
+}
+
+.main {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+:host ::ng-deep p-dropdown {
+  .custom-dropdown {
+    width:15rem !important;
+  }
+}
+
+i {
+  margin-top:0.5rem;
+  font-size:1.5rem;
+}

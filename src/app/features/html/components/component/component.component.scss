@@ -1,0 +1,68 @@
+
+
+.circle {
+  text-align:center;
+  display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+margin-bottom:1rem;
+animation-delay: 0.1s;
+cursor: pointer;
+i {
+  font-size: 2rem !important;
+}
+}
+
+
+app-circle {
+
+  i {
+    font-size:2rem;
+  }
+  margin-bottom:1rem;
+}
+
+
+
+.user-circle {
+  background-color: deepskyblue;
+  color: cyan;
+  width: 6rem;
+  height:6rem;
+}
+
+.check-circle {
+  background-color: lightgreen;
+  width: 6rem;
+  height:6rem;
+  color:green;
+}
+
+.times-circle {
+  background-color: indianred;
+  width: 6rem;
+  height:6rem;
+  color:pink;
+}
+
+.sun-circle{
+  background-color: gold;
+  width: 6rem;
+  height:6rem;
+  color:goldenrod;
+}
+
+.moon-circle{
+  background-color: purple;
+  width: 6rem;
+  height:6rem;
+  color:whitesmoke;
+}
+
+.book-circle{
+  background-color: plum;
+  width: 6rem;
+  height:6rem;
+  color:aliceblue;
+}

@@ -1,0 +1,6 @@
+  <div class="chip">
+  <i *ngIf="icon" [class]="'pi pi-' + icon"></i>
+  <div [style.width]="!icon && '100%'">
+    {{label}}
+  </div>
+</div>
